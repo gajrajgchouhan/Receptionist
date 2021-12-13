@@ -30,19 +30,21 @@ Enjoy
 ## How To Run
 
 1. Install redis from redis.io
-2. Start Redis.
+2. **Start Redis**.
 3. Make your `constants.py`.
 
 ```python
 ATLAS_ADMIN_PWD = ""
 GOOGLE_CLIENT_ID = "xxx.apps.googleusercontent.com"
-GOOGLE_SECRET = ""
+GOOGLE_SECRET = "-v5Y"
 GOOGLE_DISCOVERY_URL = "https://accounts.google.com/.well-known/openid-configuration"
-EMAIL_ID = "xxx@gmail.com"
-EMAIL_PASSWORD = ""
+MJ_API_KEY = 'xxx'
+MJ_API_SECRET = 'xxx'
+EMAIL_ID = 'xxx@gmail.com'
+EMAIL_PASSWORD = 'xxx'
 ```
 
-5. Use the google cloud console to generate the appropriate ID/Secret. (Choose `Web Application` and allow \ADD SCOPES\ and \AUTHORISED URLS\ ) <!-- TODO -->
+5. Use the google cloud console to generate the appropriate ID/Secret. (Follow ![this](https://medium.com/@thomashellstrom/use-google-as-login-in-your-web-app-with-oauth2-352f6c7f10e6)) <!-- Can be improved -->
 6. Make a MongoDB Atlas Document.
 7. Install `requirements.txt`.
 8. Run `run.sh`.
