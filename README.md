@@ -51,7 +51,7 @@ EMAIL_PASSWORD = 'xxx'
 
 ## BUGS
 
-Only works on localhost currently ! SocketIO doesn't work on deployement 🚨
+Only works on localhost currently ! SocketIO doesn't work on deployement (due to unavailability of Redis on heroku, currently working on docker to ease the running.) 🚨
 
 ## License
 
