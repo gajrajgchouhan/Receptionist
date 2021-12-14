@@ -43,14 +43,18 @@ MJ_API_SECRET = ''
 EMAIL_ID = 'xxx@gmail.com'
 EMAIL_PASSWORD = ''
 ```
-5. Use the google cloud console to generate the appropriate ID/Secret. (Follow ![this](https://medium.com/@thomashellstrom/use-google-as-login-in-your-web-app-with-oauth2-352f6c7f10e6)) <!-- Can be improved -->
+5. Use the google cloud console to generate the appropriate ID/Secret. (Follow [this](https://medium.com/@thomashellstrom/use-google-as-login-in-your-web-app-with-oauth2-352f6c7f10e6)) <!-- Can be improved -->
 6. Make a MongoDB Atlas Document.
 7. Install `requirements.txt`.
 8. Run `run.sh`.
 
 ## BUGS
 
-Only works on localhost currently ! SocketIO doesn't work on deployement (due to unavailability of Redis on heroku, currently working on docker to ease the running.) 🚨
+Only works on localhost currently ! SocketIO doesn't work on deployement (due to unavailability of Redis on heroku, currently working on docker to ease the set up.) 🚨
+
+## Video
+
+https://www.youtube.com/watch?v=DP3tGE-A8H0
 
 ## License
 
